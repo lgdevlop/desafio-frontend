@@ -1,0 +1,8 @@
+.landing {
+  display: grid;
+  align-items: center;
+  height: 100vh;
+  grid-template-rows: 80fr 20fr;
+  background: linear-gradient(#00000088, #000000AA), url('../../assets/img/norbert-levajsics-183706-unsplash-min.jpg') no-repeat fixed;
+  background-size: cover;
+}

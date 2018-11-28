@@ -1,0 +1,39 @@
+@import "../mixins.scss";
+
+.card--dados-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+
+  @include media-queries(600) {
+    // height: 180px;
+    // height: 110px;
+    grid-column: 1 / 3;
+    justify-content: space-evenly;
+  }
+
+}
+
+.texto--titulo {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.dados-card--lista {
+  overflow-y: auto;
+}
+
+.lista--items {
+  padding-left: 10px;
+  margin-top: 0px;
+}
+.lista--item {
+  list-style: none;
+  font-size: 16px;
+  line-height: 28px;
+
+  &:nth-of-type(odd) {
+    background-color: #d2eedf;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../common/mixins.scss";
+
+.desafio {
+  background: #ebf6ee;
+  display: grid;
+  grid-template-rows: auto auto auto;
+
+  // @include media-queries(800) {
+  //   // grid-template-rows: 20vh auto 8vh;
+  //   // grid-template-rows: 30vh 62vh 8vh;
+  //   grid-template-rows: 22vh 70vh 8vh;
+  //   height: 100vh;
+  // }
+}

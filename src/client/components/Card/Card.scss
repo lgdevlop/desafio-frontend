@@ -1,0 +1,23 @@
+@import "../../common/mixins.scss";
+
+.desafio--card {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: auto;
+  margin-bottom: 20px;
+  background: #FFF;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, .5);
+
+  @include media-queries(800) {
+    align-self: unset;
+    display: grid;
+    grid-template-columns: 3.5fr 7fr;
+    height: auto;
+    overflow-y: unset;
+    margin-bottom: 20px;
+  }
+
+}

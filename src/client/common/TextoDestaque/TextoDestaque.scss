@@ -1,0 +1,26 @@
+@import "../mixins.scss";
+
+.landing--texto-destaque {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+.texto-destaque--titulo {
+  // font-size: 60px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+
+  @include fluid-typo(40, 60, 1259, 340)
+
+}
+.texto-destaque--sub-titulo {
+  // font-size: 30px;
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+
+  @include fluid-typo(22, 30, 1259, 340)
+
+}

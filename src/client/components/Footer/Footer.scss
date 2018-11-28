@@ -1,0 +1,15 @@
+@import "../../common/mixins.scss";
+
+.desafio--footer {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+
+  // & p {
+  //   color: #FFF;
+  // }
+}
+.footer--texto {
+  color: #FFF;
+  @include fluid-typo(14, 18, 1259, 340);
+}

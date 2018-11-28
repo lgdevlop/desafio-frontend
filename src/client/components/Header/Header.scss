@@ -1,0 +1,21 @@
+@import "../../common/mixins.scss";
+
+.landing--header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  // justify-content: space-between;
+
+  @include media-queries(600) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    height: 10vh;
+  }
+
+}
+.black {
+  background: rgba(0, 0, 0, 0.8);
+}

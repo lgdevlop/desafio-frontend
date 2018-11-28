@@ -1,0 +1,26 @@
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+@import "../mixins.scss";
+
+.landing--icones-sociais {
+  justify-self: center;
+  display: flex;
+  width: 45vw;
+  justify-content: space-evenly;
+
+  @include media-queries(600) {
+    width: 30vw;
+  }
+
+  @include media-queries(800) {
+    width: 20vw;
+  }
+
+  @include media-queries(1200) {
+    width: 15vw;
+  }
+
+  & i {
+    font-size: 35px;
+    color: #FFF;
+  }
+}

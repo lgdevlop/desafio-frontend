@@ -1,0 +1,19 @@
+@import "../mixins.scss";
+
+.desafio--texto {
+  width: 100%;
+}
+.desafio-sobre--titulo {
+  padding-top: 20vh;
+  font-size: 60px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin: 0;
+
+  @include fluid-typo(40, 60, 1259, 340);
+
+  @include media-queries(600) {
+    padding-top: 10vh;
+  }
+}

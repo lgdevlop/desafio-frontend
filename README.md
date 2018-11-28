@@ -1,3 +1,15 @@
+- **Para instalar as dependências:**
+  - `npm i`
+- **Para buildar:**
+  - `npm run build`
+- **Para subir servidor express e servir o conteudo buildado:**
+  - `npm run server`
+- **Somente um comando para rodar a aplicação depois de instalar as dependências:**
+  - `npm start`
+- **Para rodar no docker em um container, basta rodar o comando abaixo:**
+  - `npm run docker:build`
+- **Webapp rodará na porta 8080, link: <http://localhost:8080>**
+
 # Frontend Chalenge - Qconcursos
 
 Olá Dev.
@@ -12,14 +24,14 @@ Vamos listar os pontos chaves que serão utilizados na avaliação do seu teste:
 
 Avaliaremos se:
 
-* O Dev utilizou HTML, JS e CSS. Com ou sem pré-processadores.
-* O desafio foi implementado sem a necessidade de frameworks ou libs como jQuery, Bootstrap, React, Angular, VueJs...
-* O Dev tem ou não a capacidade de arquitetar uma aplicação do zero.
-* O Dev componentizou e organizou o código para que ele seja fácil de entender e de manter.
-* O Dev utilizou ferramentas como Webpack, Gulp, Grunt, SCSS, Babel ou afins para facilitar e acelerar o desenvolvimento (Não é obrigatório).
-* O Dev se preocupou em organizar o CSS, pois acreditamos que o CSS é tão importante quanto o JS. É sério.
+- O Dev utilizou HTML, JS e CSS. Com ou sem pré-processadores.
+- O desafio foi implementado sem a necessidade de frameworks ou libs como jQuery, Bootstrap, React, Angular, VueJs...
+- O Dev tem ou não a capacidade de arquitetar uma aplicação do zero.
+- O Dev componentizou e organizou o código para que ele seja fácil de entender e de manter.
+- O Dev utilizou ferramentas como Webpack, Gulp, Grunt, SCSS, Babel ou afins para facilitar e acelerar o desenvolvimento (Não é obrigatório).
+- O Dev se preocupou em organizar o CSS, pois acreditamos que o CSS é tão importante quanto o JS. É sério.
 
-***ATENÇÃO**: Não estamos esperando que você seja um Ninja e que vá surpreender em todos os quesitos. Estamos muito mais interessados em saber qual a sua capacidade como desenvolvedor. Você pode por exemplo ser muito bom com CSS e não muito bom com JS, ou o contrário. Isso não quer dizer que você não esteja apto para ser contratado. Queremos é saber o quão esforçado você é. Então use e abuse do bom senso. Se você acha que algo é importante de ser mostrado, mostre. É a sua chance de mostrar o que você sabe :)
+**\*ATENÇÃO**: Não estamos esperando que você seja um Ninja e que vá surpreender em todos os quesitos. Estamos muito mais interessados em saber qual a sua capacidade como desenvolvedor. Você pode por exemplo ser muito bom com CSS e não muito bom com JS, ou o contrário. Isso não quer dizer que você não esteja apto para ser contratado. Queremos é saber o quão esforçado você é. Então use e abuse do bom senso. Se você acha que algo é importante de ser mostrado, mostre. É a sua chance de mostrar o que você sabe :)
 
 Se tiver qualquer dúvida sobre o desafio, abra uma Issue neste mesmo repositório. Responderemos o mais rápido possível.
 
@@ -31,39 +43,38 @@ Além de implementar o design, você deve mostrar que consegue consumir uma API 
 
 Tasks:
 
-* Implementar o design mostrando sua experiência com HTML, JS e CSS.
-* Implementar a funcionalidade de listar os repositórios e os repositórios favoritos de um perfil qualquer do Github.
-* Abrir um Pull Request para este repositório quando você terminar de implementar o desafio.
+- Implementar o design mostrando sua experiência com HTML, JS e CSS.
+- Implementar a funcionalidade de listar os repositórios e os repositórios favoritos de um perfil qualquer do Github.
+- Abrir um Pull Request para este repositório quando você terminar de implementar o desafio.
 
 Observações:
 
-* Os links do menu devem apenas fazer scroll da página para suas respectivas seções quando clicados.
-* Você não precisa implementar páginas extras para os links que estão no design.
-* Os textos da landing page podem ser textos aleatórios como "Lorem ipsum".
+- Os links do menu devem apenas fazer scroll da página para suas respectivas seções quando clicados.
+- Você não precisa implementar páginas extras para os links que estão no design.
+- Os textos da landing page podem ser textos aleatórios como "Lorem ipsum".
 
 Dicas:
 
-* Faça o melhor que você pode no tempo que tem para entregar.
-* Quanto mais coisas legais você conseguir mostrar, melhor.
-* Relaxe, não esperamos que você seja um Ninja, mas se for, ótimo :)
-* Se divirta, pois esperamos que você faça isso no dia a dia caso seja contratado :)
+- Faça o melhor que você pode no tempo que tem para entregar.
+- Quanto mais coisas legais você conseguir mostrar, melhor.
+- Relaxe, não esperamos que você seja um Ninja, mas se for, ótimo :)
+- Se divirta, pois esperamos que você faça isso no dia a dia caso seja contratado :)
 
 Será considerado como plus:
 
-* Implementar o design de forma responsiva.
-* Utilizar Webpack.
-* Utilizar SCSS.
-* Utilizar ES6+.
-* Componentizar a aplicação <3.
+- Implementar o design de forma responsiva.
+- Utilizar Webpack.
+- Utilizar SCSS.
+- Utilizar ES6+.
+- Componentizar a aplicação <3.
 
 Segue o design:
 
 Lading Page:
-![Alt text](desafio-front.jpg?raw=true "Landing Page")
+![Alt text](desafio-front.jpg?raw=true 'Landing Page')
 
 Listagem de repositórios:
-![Alt text](desafio2.jpg?raw=true "Feature")
-
+![Alt text](desafio2.jpg?raw=true 'Feature')
 
 Não se esqueça de abrir um Pull Request até que o tempo se esgote.
 

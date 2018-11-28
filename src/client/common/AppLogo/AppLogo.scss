@@ -1,0 +1,19 @@
+@import "../mixins.scss";
+
+.header--app-logo {
+  font-family: 'Roboto', sans-serif;
+  // font-size: 20px;
+  text-transform: uppercase;
+  color: #FFF;
+  justify-self: center;
+  height: 7vh;
+  line-height: 7vh;
+
+  @include fluid-typo(18, 20, 1259, 340);
+
+  @include media-queries(600) {
+    justify-self: unset;
+    padding-left: 5vw;
+  }
+
+}
